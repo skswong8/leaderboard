@@ -1,0 +1,11 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "custom-blocks/leaderboard",
+  "title": "Leaderboard",
+  "category": "custom-blocks",
+  "description": "Display leaderboard.",
+  "icon": "editor-ol",
+  "version": "0.1",
+  "textdomain": "leaderboard"
+}
