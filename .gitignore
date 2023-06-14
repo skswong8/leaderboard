@@ -1,1 +1,8 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Built files
+build/
+
+# OS files
+.DS_Store

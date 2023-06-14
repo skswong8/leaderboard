@@ -12,4 +12,5 @@ namespace Leaderboard;
  */
 function bootstrap() : void {
 	// Initialize sub-namespaces.
+	Assets\bootstrap();
 }
