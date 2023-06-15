@@ -7,5 +7,17 @@
   "description": "Display leaderboard.",
   "icon": "editor-ol",
   "version": "0.1",
-  "textdomain": "leaderboard"
+  "textdomain": "leaderboard",
+  "attributes": {
+    "title": {
+      "default": "Leaderboard",
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "hrefText": {
+      "type": "string"
+    }
+  }
 }
