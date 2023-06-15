@@ -18,9 +18,8 @@ export default function Edit(props) {
   const Link = () => {
     if (!href) {
       return;
-    } else {
-      return <a href={href}>{hrefText}</a>;
     }
+    return <a href={href}>{hrefText}</a>;
   };
 
   return (

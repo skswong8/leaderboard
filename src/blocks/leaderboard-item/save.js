@@ -3,11 +3,19 @@ import { useBlockProps } from "@wordpress/block-editor";
 /**
  * Block Save Component.
  *
- * @returns {object} React component.
+ * @param {object} props Props.
+ * @param {object} props.attributes Attributes.
+ * @returns {ReactElement} Rendered component.
  */
-function Save() {
+function Save({ attributes }) {
+  const { text } = attributes;
   const blockProps = useBlockProps.save();
-  return <div {...blockProps}>Save</div>;
+
+  return (
+    <li {...blockProps}>
+      <span>{text}</span>
+    </li>
+  );
 }
 
 export default Save;
